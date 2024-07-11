@@ -4,6 +4,7 @@ body {
 .primary-clor {
   color: darkorange;
 }
+/* nav relatd work */
 .primary-button {
   border-radius: 5px;
   background-color: darkorange;
@@ -17,6 +18,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .nav-tital {
   font-size: 45px;
@@ -34,4 +36,13 @@ nav li {
 nav a {
   text-decoration: none;
   color: rgb(81, 87, 87);
+}
+/* hedar relatad work */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
 }
