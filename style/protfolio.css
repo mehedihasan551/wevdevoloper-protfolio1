@@ -60,8 +60,9 @@ nav a {
   margin-top: 5px;
 }
 /* About section */
-.section {
+.about-section {
   padding: 0px 150px 0px;
+  margin: 20px 20px 20px;
 }
 .main-about-section {
   padding: 0px 150px 45px;
@@ -82,4 +83,29 @@ nav a {
   justify-content: space-around;
 
   padding-top: 25px;
+}
+.skill-section {
+  padding: 10px 150px 0px;
+  margin: 20px 20px 20px;
+}
+.skill-description {
+  text-align: center;
+}
+.text-skil {
+  font-size: 15px;
+  color: #474747;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding-top: 75px;
+}
+.card {
+  width: 250px;
+  height: 320px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* text-align: center; */
+  padding-left: 15px;
+  padding-top: 5px;
 }
